@@ -11,6 +11,7 @@
     --bottomMainBg:#0086FF ;
     --footercolor: #8801FE ;
     --maincolor: #ac3b3b;
+    --secondarytext: #808080;
 
 }
 
@@ -40,8 +41,28 @@ background-color: var(--headercolor);
 
 header,
 main{
-    margin:30px 0 ;
+    margin-bottom: 30px;
 }
+
+
+.logo{
+    width: 200px;
+    border-right: 2px solid rgb(167, 164, 164);
+    padding-right: 20px;
+}
+.nav_bar{
+   margin: 50px 0;
+   object-fit: contain;
+
+}
+a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: var(--secondarytext);
+    font-size: 20px;
+
+}
+
 .clearfix::after{
     content: "";
     display: table;
