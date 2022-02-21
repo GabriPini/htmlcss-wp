@@ -11,8 +11,7 @@
     --bottomMainBg:#0086FF ;
     --footercolor: #8801FE ;
     --maincolor: #ac3b3b;
-    --secondarytext: #808080;
-
+    --secondarytext: #9b9898;
 }
 
 
@@ -26,23 +25,22 @@ body{
 height: 200px;
 background-color: var(--headercolor);
 }
-.debug >main{
 
+.debug >main{
     height: 1200px;
     background-color: var(--maincolor);
-
 }
+
 .debug >footer{
      margin-top: 40px;
     height: 50px;
     background-color: var(--footercolor);
 }
 
-
-
 header,
 main{
     margin-bottom: 30px;
+    
 }
 
 /* start header section */
@@ -51,17 +49,16 @@ main{
     border-right: 2px solid rgb(167, 164, 164);
     padding-right: 20px;
 }
+
 .nav_bar{
    margin: 50px 0;
-   object-fit: contain;
-
 }
+
 a{
     margin-left: 15px;
     text-decoration: none;
     color: var(--secondarytext);
     font-size: 20px;
-
 }
 /* end header section */
 
@@ -72,19 +69,19 @@ a{
     clear: both;
 }
 /* start top main section */
+main img{
+    border-radius: 15px;
+    filter: brightness(90%);
+    object-fit: cover;
+}
+
 .img-topmain{
      width: 100%;
      height: 600px;
-     object-fit: cover;
-     border-radius: 15px;
-     filter: brightness(85%);
-
 }
 
 .top-main{
-    position: relative;
-   
-    
+    position: relative;  
 }
 
 .img_text{
@@ -93,20 +90,16 @@ a{
     bottom: 90px;
     color: white;
     font-size: 20px;
-    
   }
   /* end top main section */
   /* start bottoma main section */
 .row{
-    
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .debug .row-header{
     height: 120px;
     background-color: var(--bottomMaincolor);
-    
 }
 
 .row-header{
@@ -115,18 +108,18 @@ a{
     width: 100%;
 }
 
-
 .debug .col,
 .debug .col-g{
     height: 600px ;
     background-color: var(--bottomMaincolor);
-    
 }
 
 .row-header_title{
     font-size: 35px;
 }
-span{
+
+span,
+p{
     color: var(--secondarytext);
 }
 
@@ -134,14 +127,24 @@ span{
 .col-g{
     margin-top: 30px;
     float: left;
+    width: 100%;
 }
 
 .col{
     width: 25%;
 }
+
 .col-g{ 
     width: 46%;
     margin: 30px 2%;
+}
+
+.row img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 
 }
+
+
 /* end bottom main section */
