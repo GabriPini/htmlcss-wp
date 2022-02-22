@@ -120,6 +120,7 @@ main img{
 
 .row p,span{
     color: var(--secondarytext);
+    margin-top: 30px;
 }
 
 .col,
@@ -142,6 +143,10 @@ main img{
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+.row h3{
+    margin: 15px 0;
+
 }
 
 footer{
