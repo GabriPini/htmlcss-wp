@@ -121,6 +121,7 @@ main img{
 .row p,span{
     color: var(--secondarytext);
     margin-top: 30px;
+    line-height: 25px;
 }
 
 .col,
